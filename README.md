@@ -32,12 +32,12 @@ Chronology.years_until(future_date)
 ## Changelog
 
 ### 0.0.3
-- added _weeks_since_
-- added _months_since_
-- added _days_until_
-- added _weeks_until_
-- added _months_until_
-- added _years_until_
+- added ```weeks_since```
+- added ```months_since```
+- added ```days_until```
+- added ```weeks_until```
+- added ```months_until```
+- added ```years_until```
 
 ## License
 MIT
