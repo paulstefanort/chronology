@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name = 'chronology'
-  s.version = '0.0.2'
-  s.date = '2013-02-25'
+  s.version = '0.0.3'
+  s.date = '2013-02-26'
   s.summary = 'Interact with chronological information.'
   s.description = 'A Ruby gem for interacting with chronological information.'
   s.authors = ['Paul Stefan Ort']
