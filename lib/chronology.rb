@@ -1,8 +1,10 @@
 require 'date'
 
 class Chronology
+  @@now = DateTime.now
+
   def self.days_since(date)
-    DateTime.now.mjd - date.mjd
+    @@now.mjd - date.mjd
   end
 
   def self.weeks_since(date)
@@ -10,8 +12,7 @@ class Chronology
   end
 
   def self.months_since(date)
-    now = DateTime.now
-    (now.month - date.month) + 12 * (now.year - date.year)
+    (@@now.month - date.month) + 12 * (@@now.year - date.year)
   end
 
   def self.years_since(date)
@@ -19,7 +20,7 @@ class Chronology
   end
 
   def self.days_until(date)
-    date.mjd - DateTime.now.mjd
+    date.mjd - @@now.mjd
   end
 
   def self.weeks_until(date)
@@ -27,8 +28,7 @@ class Chronology
   end
 
   def self.months_until(date)
-    now = DateTime.now
-    (date.month - now.month) + 12 * (date.year - now.year)
+    (date.month - @@now.month) + 12 * (date.year - @@now.year)
   end
 
   def self.years_until(date)
