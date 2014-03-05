@@ -3,6 +3,8 @@ Chronology
 
 A Ruby gem for interacting with chronological information.
 
+[![Code Climate](https://codeclimate.com/github/paulstefanort/chronology.png)](https://codeclimate.com/github/paulstefanort/chronology)
+
 ## Installation
 
 ```
